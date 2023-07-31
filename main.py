@@ -1,9 +1,9 @@
 def greet(name):
-    print(f"Hello, {name}!")
+    return f"Hello, {name}!"
 
 def main():
     name = input("Enter your name: ")
-    greet(name)
+    print(greet(name))
 
 if __name__ == "__main__":
     main()
